@@ -11,7 +11,7 @@ const configApi = (app) => {
   app.use(cors());
   return;
 };
-
+//configuracion
 const configRouter = (app) => {
   app.use('/api/v1/', routerConfig.loggedInRoutes());
   app.use('/', routerConfig.authroutes());

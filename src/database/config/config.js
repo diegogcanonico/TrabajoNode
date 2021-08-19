@@ -1,5 +1,6 @@
 require("dotenv").config();
 const { DB_USERNAME, DB_PASSWORD, DB_NAME } = process.env;
+//Se agregaron otras variables en prod.
 
 module.exports = {
   development: {
